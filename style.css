@@ -1,0 +1,84 @@
+
+#list table{
+    border-collapse: collapse;
+}
+table td,table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#list tbody tr:nth-child(odd){
+    background-color: #f0f0f0;
+}
+#list tbody tr{
+    width:100%;
+}
+#list td:last-child{
+    width: 5px;
+    white-space: nowrap;
+}
+#amount_col{
+    width: 1px;
+    white-space: nowrap;  
+}
+button{
+    color:white;
+    border: none;
+    border-radius: 2px;
+    padding: 6px 10px;
+    margin: 5px 5px;
+    font-size: 15px;
+    background-color: #3399ff;
+    
+}
+.list_mod{
+    display:inline-block;
+}
+.swap{
+    padding: 5px 7px;
+    width: 0px;
+}
+table tr:last-child .swap_button{
+    display: none;
+}
+.swap_button{
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+}
+
+
+.edit{
+    background-color: #ffc34d;
+    color: black;
+}
+.save{
+    background-color: #2eb82e;
+}
+.cancel, .delete{
+    background-color: #cc0000;
+}
+.item_quantity{
+    border-right: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+#add_form{
+    border: solid;
+    border-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 20px;
+}
+#add_form button{
+    margin:auto;
+    display: block;
+}
+#item_input{
+    width: 50%;
+}
+#amount_input{
+    width: 25%;
+}
